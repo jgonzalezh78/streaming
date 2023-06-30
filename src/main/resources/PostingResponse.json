@@ -1,0 +1,63 @@
+{
+  "id": "cca159af-b657-4b24-8edb-f0ef195f9db4",
+  "create_request_id": "81a57209-b44b-4526-ab58-5e4f6e725232",
+  "client_id": "AsyncCreatePostingInstructionBatch",
+  "client_batch_id": "d1d3c529-5116-4d0c-83f1-9bf71c9adc01",
+  "posting_instructions": [
+    {
+      "id": "3ee83e3f-0cad-4aa0-97e9-828f5cd97b42",
+      "client_transaction_id": "tx3_ade2e3dd-809b-4b43-a86c-5b59eb3c6222",
+      "inbound_hard_settlement": {
+        "amount": "1000",
+        "denomination": "USD",
+        "target_account": {
+          "account_id": "58accd83-4e16-771b-9715-3760b5613690"
+        },
+        "internal_account_id": "1",
+        "advice": false,
+        "target_account_id": "58accd83-4e16-771b-9715-3760b5613690"
+      },
+      "pics": [],
+      "instruction_details": {
+        "scheme_name": "travel"
+      },
+      "committed_postings": [
+        {
+          "credit": true,
+          "amount": "1000",
+          "denomination": "USD",
+          "account_id": "58accd83-4e16-771b-9715-3760b5613690",
+          "account_address": "DEFAULT",
+          "asset": "COMMERCIAL_BANK_MONEY",
+          "phase": "POSTING_PHASE_COMMITTED"
+        },
+        {
+          "credit": false,
+          "amount": "1000",
+          "denomination": "USD",
+          "account_id": "1",
+          "account_address": "DEFAULT",
+          "asset": "COMMERCIAL_BANK_MONEY",
+          "phase": "POSTING_PHASE_COMMITTED"
+        }
+      ],
+      "posting_violations": [],
+      "account_violations": [],
+      "restriction_violations": [],
+      "contract_violations": [],
+      "override": {
+        "restrictions": {
+          "all": false,
+          "restriction_set_ids": []
+        }
+      },
+      "transaction_code": null
+    }
+  ],
+  "batch_details": {},
+  "value_timestamp": "2023-06-19T08:30:54.918184Z",
+  "status": "POSTING_INSTRUCTION_BATCH_STATUS_ACCEPTED",
+  "error": null,
+  "insertion_timestamp": "2023-06-19T08:30:54.918184Z",
+  "dry_run": false
+}
