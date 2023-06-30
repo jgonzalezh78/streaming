@@ -25,7 +25,7 @@ sequenceDiagram
 ## Steps to run application
  - Download from repository the project
     ```sh
-    git clone blablabla
+    git clone git@github.com:jgonzalezh78/streaming.git
     ```
     chage to the folder kafkalistener
     
